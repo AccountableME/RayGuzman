@@ -1,0 +1,1006 @@
+{
+  "baselineCommit": "8faa1756aea81b7d28e00f301b956031407e82d7",
+  "pages": 11,
+  "requestItems": 28,
+  "assertions": 207,
+  "items": [
+    {
+      "item": 1,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "404.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "404.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "about.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "about.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "index.html: identity"
+        },
+        {
+          "passed": true,
+          "check": "index.html: old identity absent"
+        },
+        {
+          "passed": true,
+          "check": "Home identity"
+        }
+      ]
+    },
+    {
+      "item": 2,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "404.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "404.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "404.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "about.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "about.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "about.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: old service navigation absent"
+        },
+        {
+          "passed": true,
+          "check": "index.html: mobile navigation"
+        },
+        {
+          "passed": true,
+          "check": "index.html: desktop navigation and gold Contact action"
+        },
+        {
+          "passed": true,
+          "check": "index.html: old service navigation absent"
+        }
+      ]
+    },
+    {
+      "item": 3,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "404.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "about.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "index.html: canonical internal links"
+        },
+        {
+          "passed": true,
+          "check": "Permanent redirect /boards"
+        },
+        {
+          "passed": true,
+          "check": "Permanent redirect /advisory"
+        },
+        {
+          "passed": true,
+          "check": "Permanent redirect /advisory.html"
+        },
+        {
+          "passed": true,
+          "check": "For Boards canonical address"
+        }
+      ]
+    },
+    {
+      "item": 4,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "404.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "404.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "404.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "about.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "about.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "about.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: exact closing paragraph"
+        },
+        {
+          "passed": true,
+          "check": "index.html: exactly one closing section"
+        },
+        {
+          "passed": true,
+          "check": "index.html: exact single closing action"
+        },
+        {
+          "passed": true,
+          "check": "index.html: exact closing paragraph"
+        }
+      ]
+    },
+    {
+      "item": 5,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "404.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "about.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: exact footer"
+        },
+        {
+          "passed": true,
+          "check": "index.html: exact footer"
+        }
+      ]
+    },
+    {
+      "item": 6,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "404.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "about.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: no body em dashes"
+        },
+        {
+          "passed": true,
+          "check": "index.html: no body em dashes"
+        }
+      ]
+    },
+    {
+      "item": 7,
+      "status": "passed in delivery package",
+      "checks": [
+        {
+          "passed": true,
+          "check": "404.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "about.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "boardroom.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "contact.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "for-boards.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "index.html: no delivered password gate"
+        },
+        {
+          "passed": true,
+          "check": "Vercel output excludes authentication infrastructure"
+        },
+        {
+          "passed": true,
+          "check": "Static Vercel handoff config"
+        }
+      ]
+    },
+    {
+      "item": 8,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact title"
+        },
+        {
+          "passed": true,
+          "check": "Exact meta description"
+        }
+      ]
+    },
+    {
+      "item": 9,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Hero headline unchanged"
+        },
+        {
+          "passed": true,
+          "check": "Exact hero paragraph"
+        },
+        {
+          "passed": true,
+          "check": "Exact hero links"
+        }
+      ]
+    },
+    {
+      "item": 10,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Four values and labels in order"
+        }
+      ]
+    },
+    {
+      "item": 11,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Short-version heading"
+        },
+        {
+          "passed": true,
+          "check": "Exact short-version paragraph"
+        },
+        {
+          "passed": true,
+          "check": "All six tags"
+        },
+        {
+          "passed": true,
+          "check": "Removed services and invitations"
+        }
+      ]
+    },
+    {
+      "item": 12,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact item 03 sentence and colon"
+        }
+      ]
+    },
+    {
+      "item": 13,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Ascend exact responsibilities"
+        },
+        {
+          "passed": true,
+          "check": "Ascend asset label"
+        },
+        {
+          "passed": true,
+          "check": "Ascend former box absent"
+        },
+        {
+          "passed": true,
+          "check": "Belmont exact role"
+        },
+        {
+          "passed": true,
+          "check": "Belmont exact responsibilities"
+        },
+        {
+          "passed": true,
+          "check": "s3-recycling-solutions: omitted placeholder; no invented description"
+        },
+        {
+          "passed": true,
+          "check": "seed-healthcare: omitted placeholder; no invented description"
+        },
+        {
+          "passed": true,
+          "check": "switchpoint-ventures: preserved former responsibility"
+        },
+        {
+          "passed": true,
+          "check": "staffing-as-a-mission: preserved former responsibility"
+        },
+        {
+          "passed": true,
+          "check": "montecito-medical: advisory experience preserved"
+        },
+        {
+          "passed": true,
+          "check": "seed-healthcare: advisory experience preserved"
+        }
+      ]
+    },
+    {
+      "item": 14,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Duplicate overview removed"
+        },
+        {
+          "passed": true,
+          "check": "Complete details link retained"
+        }
+      ]
+    },
+    {
+      "item": 15,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact Odgers label"
+        }
+      ]
+    },
+    {
+      "item": 16,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Homepage essays section unchanged apart from equivalent clean URLs"
+        },
+        {
+          "passed": true,
+          "check": "Homepage closing present"
+        }
+      ]
+    },
+    {
+      "item": 17,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact meta description"
+        }
+      ]
+    },
+    {
+      "item": 18,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Both exact About introduction paragraphs"
+        }
+      ]
+    },
+    {
+      "item": 19,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact Belmont bio replacement"
+        }
+      ]
+    },
+    {
+      "item": 20,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "All other About main copy unchanged, including headline/index"
+        }
+      ]
+    },
+    {
+      "item": 21,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact title"
+        },
+        {
+          "passed": true,
+          "check": "Exact meta description"
+        }
+      ]
+    },
+    {
+      "item": 22,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "For Boards eyebrow"
+        },
+        {
+          "passed": true,
+          "check": "Preserved For Boards h1"
+        },
+        {
+          "passed": true,
+          "check": "Preserved For Boards p[@class=\"page-description\"]"
+        }
+      ]
+    },
+    {
+      "item": 23,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Ascend exact responsibilities"
+        },
+        {
+          "passed": true,
+          "check": "Ascend asset label"
+        },
+        {
+          "passed": true,
+          "check": "Ascend former box absent"
+        },
+        {
+          "passed": true,
+          "check": "Belmont exact role"
+        },
+        {
+          "passed": true,
+          "check": "Belmont exact responsibilities"
+        },
+        {
+          "passed": true,
+          "check": "s3-recycling-solutions: omitted placeholder; no invented description"
+        },
+        {
+          "passed": true,
+          "check": "seed-healthcare: omitted placeholder; no invented description"
+        },
+        {
+          "passed": true,
+          "check": "switchpoint-ventures: preserved former responsibility"
+        },
+        {
+          "passed": true,
+          "check": "staffing-as-a-mission: preserved former responsibility"
+        },
+        {
+          "passed": true,
+          "check": "montecito-medical: advisory experience preserved"
+        },
+        {
+          "passed": true,
+          "check": "seed-healthcare: advisory experience preserved"
+        }
+      ]
+    },
+    {
+      "item": 24,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Looking ahead unchanged"
+        },
+        {
+          "passed": true,
+          "check": "Board seat closing action"
+        }
+      ]
+    },
+    {
+      "item": 25,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Boardroom page-hero unchanged"
+        },
+        {
+          "passed": true,
+          "check": "Boardroom collection unchanged"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: all main copy unchanged excluding shared closing and author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-1.html: sitewide author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: all main copy unchanged excluding shared closing and author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-2.html: sitewide author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: all main copy unchanged excluding shared closing and author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-3.html: sitewide author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: all main copy unchanged excluding shared closing and author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-4.html: sitewide author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: all main copy unchanged excluding shared closing and author identity"
+        },
+        {
+          "passed": true,
+          "check": "boardroom-5.html: sitewide author identity"
+        }
+      ]
+    },
+    {
+      "item": 26,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact meta description"
+        }
+      ]
+    },
+    {
+      "item": 27,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "Exact Contact introduction"
+        }
+      ]
+    },
+    {
+      "item": 28,
+      "status": "passed",
+      "checks": [
+        {
+          "passed": true,
+          "check": "One contact card"
+        },
+        {
+          "passed": true,
+          "check": "Exact contact card title"
+        },
+        {
+          "passed": true,
+          "check": "Exact contact card paragraph"
+        },
+        {
+          "passed": true,
+          "check": "Exact email action and subject"
+        },
+        {
+          "passed": true,
+          "check": "Email/copy button/LinkedIn/Nashville unchanged"
+        }
+      ]
+    }
+  ],
+  "hostingNote": "Item 7 is verified in the password-free Vercel files. Hosted access remains a deployment-time check. Existing Cloudflare preview unchanged.",
+  "failures": []
+}

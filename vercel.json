@@ -1,0 +1,30 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/boards",
+      "destination": "/for-boards",
+      "permanent": true
+    },
+    {
+      "source": "/boards.html",
+      "destination": "/for-boards",
+      "permanent": true
+    },
+    {
+      "source": "/advisory",
+      "destination": "/for-boards",
+      "permanent": true
+    },
+    {
+      "source": "/advisory.html",
+      "destination": "/for-boards",
+      "permanent": true
+    }
+  ]
+}
