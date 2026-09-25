@@ -1,0 +1,198 @@
+/* Reading, navigation and contact: functional additions from the site audit. */
+button:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+.light summary:focus-visible{outline-color:#775b2b}
+.hero-actions{display:flex;gap:14px 30px;flex-wrap:wrap}
+.engage-grid{align-items:start}
+.engage-grid article>p{min-height:7em}
+.engagement-details{width:100%;margin-top:22px;border-top:1px solid #bdc8cf}
+.engagement-details summary,.reading-contents summary{cursor:pointer;min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:.875rem;font-weight:600;list-style:none}
+.engagement-details summary::-webkit-details-marker,.reading-contents summary::-webkit-details-marker{display:none}
+.engagement-details summary::after,.reading-contents summary::after{content:'+';font-size:1.3em;font-weight:400}
+.engagement-details[open]>summary::after,.reading-contents[open]>summary::after{content:'−'}
+.engagement-topics{padding:2px 0 8px}
+.engagement-topics section+section{margin-top:24px}
+.engagement-topics h4{font-size:1rem;line-height:1.5;font-weight:600;margin-bottom:8px}
+.engage-grid .engagement-topics p{font-size:.9375rem;line-height:1.65;margin:0}
+.engagement-topics a{display:inline-flex;gap:10px;align-items:center;min-height:44px;font-size:.875rem;text-decoration:underline;text-underline-offset:4px;color:#604923;margin-top:8px}
+.reading-layout{display:block;max-width:850px}
+.reading-aside{position:static;border-bottom:1px solid #c0cbd0;padding-bottom:16px;margin-bottom:36px}
+.reading-aside nav{display:flex;flex-direction:column;gap:6px}
+.reading-aside nav a{font-size:.9375rem;min-height:44px;display:flex;align-items:center}
+.reading-contents summary{font-size:.875rem;text-transform:uppercase;letter-spacing:.1em;color:#604923;margin-bottom:6px}
+.reading-layout.reading-wide{display:grid;grid-template-columns:245px minmax(0,730px);max-width:1600px;gap:60px}
+.reading-wide .reading-aside{position:sticky;top:var(--reading-top,128px);max-height:calc(100dvh - var(--reading-top,128px) - 24px);overflow:auto;scrollbar-gutter:stable;align-self:start;border-bottom:0;margin-bottom:0}
+.copy-email-row{margin:8px 0 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.copy-email{font:inherit;font-size:.9375rem;color:inherit;background:transparent;border:1px solid #81909c;border-radius:4px;min-height:44px;padding:9px 14px;cursor:pointer;display:inline-flex;gap:16px;align-items:center}
+.copy-email[hidden]{display:none}
+.copy-email:hover{background:#203749}
+.copy-status{font-size:.875rem;max-width:34rem;color:#c3cdd4}
+/* A tighter editorial rhythm preserves every role and the full long-form content. */
+.home .section{padding-block:80px}
+.home .section-heading{margin-bottom:44px}
+.home .experience-stories article{padding-block:34px}
+.home .experience-stories h3{font-size:clamp(2.35rem,3.5vw,3.2rem);margin-bottom:20px}
+.home .experience-stories p{margin-bottom:22px}
+.home .perspective-image img{aspect-ratio:4/3}
+.home .relationship-heading{margin-bottom:38px}
+.relationship-role,.index-role{font-size:.875rem}
+.role-former,.role-context{font-size:.9375rem;line-height:1.65}
+.relationship-entry .role-description,.relationship-entry .role-context{font-size:1rem}
+.role-row .small-label{font-size:.875rem;line-height:1.6}
+.copy-label{font-size:.75rem}
+.home .featured-essays .essay-meta{margin-bottom:24px}
+.collection-page .page-hero{padding-bottom:45px}
+.collection-page .page-hero h1{font-size:clamp(3.25rem,6vw,5.8rem)}
+.collection-page .collection{padding-top:32px}
+.collection-intro{margin-bottom:30px}
+.collection-intro>span{font-size:.8125rem;margin-top:0}
+@media(max-width:979px){
+ .engage-grid article>p{min-height:0}
+ .reading-layout{max-width:850px}
+}
+@media(max-width:760px){
+ .home .section{padding-block:56px}
+ .home .section-heading{margin-bottom:32px}
+ .engage-grid h3{margin:16px 0;font-size:2.35rem}
+ .engagement-details{margin-top:14px}
+ .hero-actions{gap:8px 24px}
+ .home .experience-stories article{padding-block:28px}
+ .home .experience-stories h3{font-size:2.35rem}
+ .home .featured-essays .essay-card{padding-block:24px}
+ .home .featured-essays .essay-card h3{font-size:2rem}
+ .home .featured-essays .essay-meta{margin-bottom:16px}
+ .home .featured-essays .eyebrow{margin-bottom:12px}
+ .collection-page .page-hero{padding-top:48px;padding-bottom:32px}
+ .collection-page .page-hero h1{font-size:3.25rem}
+ .reading-aside{padding-bottom:14px;margin-bottom:28px}
+ .relationship-role,.index-role{font-size:.875rem}
+ .role-former,.role-context{font-size:.9375rem}
+ .copy-label{font-size:.75rem}
+}
+@media print{.reading-aside{display:none}.reading-layout.reading-wide{display:block}}
+
+/* Shared heading rhythm: labels, titles and following content stay grouped. */
+:root{
+ --heading-label-gap:clamp(1rem,1.7vw,1.5rem);
+ --heading-copy-gap:clamp(1.25rem,2.2vw,2rem);
+ --heading-section-gap:clamp(2rem,3.4vw,3rem);
+ --heading-page-inset:clamp(3rem,5.8vw,5.25rem);
+}
+h1,h2,h3,h4{margin-top:0;text-wrap:balance}
+h4{overflow-wrap:anywhere}
+.hero-copy,.hero-bottom,.footer-top>*{min-width:0}
+.hero-actions>.text-link{min-width:0;max-width:100%}
+.footer-name{overflow-wrap:anywhere}
+.role-description{overflow-wrap:anywhere}
+.eyebrow{line-height:1.5}
+.page-hero,.essay-hero,.collection-page .page-hero{padding-top:var(--heading-page-inset);padding-bottom:clamp(2.5rem,4vw,4rem)}
+.page-hero>.eyebrow,.essay-hero>.eyebrow,.section-heading .eyebrow,.heading-row .eyebrow,
+.relationship-heading .eyebrow,.relationship-overview>header .eyebrow,
+.perspective-copy .eyebrow,.interests .eyebrow,.connect>.eyebrow{margin-bottom:var(--heading-label-gap)}
+.page-hero h1,.essay-hero h1{line-height:1.08}
+.page-description,.essay-subtitle{margin-top:var(--heading-copy-gap)}
+.byline{margin-top:var(--heading-copy-gap);gap:12px 28px}
+.back-link{margin-bottom:var(--heading-label-gap)}
+.section-heading,.home .section-heading,.heading-row,.home .relationship-heading{margin-bottom:var(--heading-section-gap)}
+.engage-grid h3{margin-top:var(--heading-label-gap);margin-bottom:var(--heading-copy-gap);line-height:1.15}
+/* Every story keeps its inset below the divider; labels and titles form one group. */
+.home .experience-stories{
+ --heading-label-gap:clamp(.75rem,1.2vw,1rem);
+ --heading-copy-gap:clamp(1rem,1.7vw,1.5rem);
+}
+.home .experience-stories .eyebrow{margin-bottom:var(--heading-label-gap)}
+.home .experience-stories h3{margin-top:0;margin-bottom:var(--heading-copy-gap);line-height:1.15}
+.home .experience-stories article>p:not(.eyebrow):not(.caption){margin-top:0}
+.value-grid h3,.inquiry-list h2{margin-bottom:var(--heading-copy-gap);line-height:1.2}
+.group-title{line-height:1.5;margin-bottom:24px}
+.role-row h3{line-height:1.2;margin-bottom:12px}
+.engagement-topics h4{margin:0 0 8px}
+.collection-intro>span{white-space:normal;line-height:1.6}
+.prose h2{margin:clamp(2.5rem,4vw,3.5rem) 0 20px;line-height:1.25}
+.prose>h2:first-child{margin-top:0}
+.prose .refs h2{margin-top:28px}
+.essay-pagination h2{line-height:1.25}
+@media(max-width:760px){
+ .heading-row>.text-link{margin-top:20px}
+ .page-hero h1,.collection-page .page-hero h1{font-size:clamp(2.5rem,calc(8vw + 1rem),4.75rem)}
+ .relationship-chapter>header .eyebrow{margin-bottom:16px}
+}
+
+/* Glass navigation over softly lit, legible editorial surfaces. */
+:root{
+ --glass-light:linear-gradient(145deg,rgba(255,255,255,.92),rgba(245,248,249,.76));
+ --glass-dark:linear-gradient(135deg,rgba(41,62,78,.86),rgba(15,29,43,.94));
+ --surface-light:linear-gradient(145deg,rgba(255,255,255,.9),rgba(247,249,248,.72));
+ --surface-dark:linear-gradient(135deg,rgba(48,67,83,.6),rgba(24,43,60,.72));
+ --glass-edge:rgba(255,255,255,.32);
+ --surface-edge:rgba(121,143,157,.25);
+ --surface-radius:20px;
+}
+body{background-color:var(--navy);background-image:radial-gradient(ellipse 1100px 720px at 95% 0,rgba(139,169,185,.14),transparent 70%)}
+.hero,.page-hero,.essay-hero{background-image:radial-gradient(ellipse at 85% 24%,rgba(215,187,131,.055),transparent 60%)}
+.light{background-color:#edf2f3;background-image:radial-gradient(ellipse at 5% 10%,rgba(215,187,131,.15),transparent 55%),radial-gradient(ellipse at 95% 85%,rgba(137,169,189,.15),transparent 55%),linear-gradient(140deg,#f7f9f8,#edf2f4)}
+.relationship-guide,.relationship-desktop .relationship-guide,.reading-aside,.reading-wide .reading-aside{
+ background:#f8faf9;border:1px solid rgba(255,255,255,.85);border-radius:var(--surface-radius);
+ padding:20px;box-shadow:inset 0 1px 0 #fff,0 10px 30px rgba(44,67,83,.09);
+}
+.relationship-guide .relationship-person{gap:14px}
+.relationship-guide .relationship-person img{width:56px;height:70px}
+.relationship-guide .relationship-name{font-size:2rem}
+.relationship-guide{margin-bottom:40px}
+.relationship-desktop .relationship-guide{margin-bottom:0}
+.relationship-desktop .relationship-story,.relationship-desktop .relationship-map{grid-template-columns:minmax(272px,.6fr) minmax(0,1.4fr)}
+.relationship-nav a{border-color:transparent}
+.relationship-nav a[aria-current]{background:linear-gradient(135deg,#284052,#101f2e);border-color:rgba(255,255,255,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 5px 14px rgba(17,39,54,.15)}
+.relationship-nav a[aria-current] .chapter-number{box-shadow:inset 0 1px 0 rgba(255,255,255,.45)}
+.reading-aside{margin-bottom:36px}
+.reading-wide .reading-aside{margin-bottom:0}
+.reading-contents summary{margin-bottom:0}
+.reading-contents[open]>summary{margin-bottom:12px}
+.reading-aside nav a{border:1px solid transparent;border-radius:7px}
+.reading-aside nav a:hover,.reading-aside nav a[aria-current]{background:#e9e5dc;border-color:#c4b48e;color:#513d1d}
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+ .relationship-guide,.relationship-desktop .relationship-guide,.reading-aside,.reading-wide .reading-aside{background:var(--glass-light);-webkit-backdrop-filter:blur(18px) saturate(1.15);backdrop-filter:blur(18px) saturate(1.15)}
+}
+/* Content gets a quiet material finish; blur is limited to the functional layer. */
+.engage-grid>article,.value-grid>article,.essay-card{
+ background:var(--surface-light);border:1px solid var(--surface-edge);border-radius:var(--surface-radius);
+ padding:clamp(22px,2.3vw,32px);box-shadow:inset 0 1px 0 #fff,0 8px 24px rgba(44,67,83,.055);
+}
+.engage-grid,.value-grid,.featured-essays{gap:24px}
+.engage-grid h3{font-size:clamp(2rem,2.7vw,2.625rem)}
+.home .featured-essays .essay-card{padding:clamp(22px,2.3vw,32px)}
+.essay-card .essay-read{padding-top:24px}
+.essay-card:hover{border-color:#ad986e;box-shadow:inset 0 1px 0 #fff,0 10px 28px rgba(44,67,83,.1)}
+.essay-collection{gap:28px}
+.role-row,.inquiry-list>article,.recognition{
+ background:var(--surface-dark);border:1px solid rgba(187,204,217,.22);border-radius:var(--surface-radius);
+ padding:clamp(22px,2.3vw,32px);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 8px 24px rgba(4,15,25,.07);
+}
+.role-row+.role-row,.inquiry-list>article+article{margin-top:16px}
+.role-row{gap:36px}
+.role-row>*{min-width:0}
+.hero-portrait picture{border:1px solid rgba(236,244,248,.4);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 20px 55px rgba(2,14,23,.25)}
+.hero-portrait figcaption{background:var(--surface-dark);border:1px solid rgba(187,204,217,.2);border-radius:12px;padding:16px 18px;margin-top:12px;box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+.connect-actions>.text-link,.copy-email{background:var(--surface-dark);border:1px solid rgba(187,204,217,.28);border-radius:12px;padding:16px 20px;box-shadow:inset 0 1px 0 rgba(255,255,255,.14)}
+.connect-actions>.text-link:hover,.copy-email:hover{background:#30475a;color:#f7e1b3;border-color:var(--gold)}
+.footer{background:linear-gradient(140deg,#0d1e2d,#0a1722);border-top:1px solid rgba(187,204,217,.18)}
+@media(max-width:760px){
+ .engage-grid,.value-grid,.featured-essays{gap:20px}
+ .engage-grid h3{font-size:2.25rem}
+ .role-row{gap:18px}
+ .relationship-guide,.relationship-desktop .relationship-guide{padding:18px}
+ .reading-aside{padding:16px;margin-bottom:28px}
+ .connect-actions{gap:14px}
+ .hero-portrait figcaption{padding:14px;font-size:.75rem}
+ .collection-page .essay-collection .essay-card:first-child h3{font-size:2.5rem}
+}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){
+ .relationship-guide,.relationship-desktop .relationship-guide,.reading-aside,.reading-wide .reading-aside{background:#f8faf9;-webkit-backdrop-filter:none;backdrop-filter:none;border-color:#9baeb8}
+ .engage-grid>article,.value-grid>article,.essay-card{background:#f8faf9;border-color:#9baeb8}
+ .role-row,.inquiry-list>article,.recognition,.hero-portrait figcaption,.connect-actions>.text-link,.copy-email{background:#192b3d;border-color:#8595a2}
+ .relationship-nav a[aria-current]{background:#101f2e}
+ .light{background:#f8f9f9}
+}
+@media print{
+ body,.light,.hero,.page-hero,.essay-hero{background:white}
+ .relationship-guide,.engage-grid>article,.value-grid>article,.essay-card,.role-row,.inquiry-list>article,.recognition{background:white;box-shadow:none;backdrop-filter:none;border-color:#ccc}
+}
